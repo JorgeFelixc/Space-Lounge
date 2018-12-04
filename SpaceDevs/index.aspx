@@ -55,8 +55,21 @@
         //2 - Red - se cancelo - status-orange
         //3 - Success - Exito - status-success
         //4 - Fail - fallo - status-fail
-        //------------------------------------
-
+        //------------------------------------ 
+        
+        
+        //FUNTION ALERTA
+        function Alerta(){
+            alert("Error, no se encontro");
+            var urxx ="https://launchlibrary.net";
+            
+            var sxx ={                
+                start: i;
+            }
+        }
+        //FUNTION ALERTA
+        
+        
         function fn_get_lanzamientos() {
             var uri = "https://launchlibrary.net/1.4/launch";
             var jsonArray = [];
