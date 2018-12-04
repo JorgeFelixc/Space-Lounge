@@ -9,7 +9,7 @@
             <div class="info-izq">
                 <div class="info-title"> 
                     <div class="title-container">
-                        <h1 id="title">Simple plataforma pero util </h1>
+                        <h1 id="title">Simple plataforma pero util</h1>
                     </div>
                     <div class="status-container">
                         <span class="status-default" id="state"></span>
