@@ -1,14 +1,14 @@
 ﻿/*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
- * 
+ *
  * Includes Sizzle.js
  * https://sizzlejs.com/
- * 
+ *
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
- * 
+ *
  * Date: 2018-01-20T17:24Z
  */
 (function (global, factory) {
@@ -42,10 +42,9 @@
     // Edge <= 12 - 13+, Firefox <=18 - 45+, IE 10 - 11, Safari 5.1 - 9+, iOS 6 - 9.1
     // throw exceptions when non-strict code (e.g., ASP.NET 4.5) accesses strict mode
     // arguments.callee.caller (trac-13335). But as of jQuery 3.0 (2016), strict mode should be common
-    // enough that all such attempts are guarded in a try block. 
+    // enough that all such attempts are guarded in a try block.
     "use strict";
 
-	
     var arr = [];
 
     var document = window.document;

@@ -17,7 +17,9 @@ body{
 }
 
 /*#B404AE*/
-
+#modal1{
+    color:black !important;
+}
 
 .wrapper{
 	height: 100%;
@@ -35,7 +37,7 @@ body{
 	text-align: center;
 }
 
-.menu a{
+.menutext{
 	color:white;
 	text-decoration:none;
 	display:inline-block;
@@ -46,12 +48,12 @@ body{
     transition:0.5s;
        
 }
-.menu a:hover > b{
+.menutext:hover > b{
     transition:0.5s;
     color:#AC06D8;
 }
 
-.menu a::before{
+.menutext::before{
     content:'';
     position:absolute;
     bottom:0;
@@ -63,7 +65,7 @@ body{
 
 }
 
-.menu a:hover::before{
+.menutext:hover::before{
     transition:0.5s;
     width:100%;
     left:0;
@@ -516,7 +518,11 @@ body{
     opacity:0;
     transition:0.5s;
 }
+.Error{
+    font-size:24px;
+    color:coral;
 
+}
 .mes::after{
     content:'';
     position:absolute;
@@ -529,4 +535,18 @@ body{
 	border-bottom: 11px solid transparent; 
     opacity:0;
     transition:0.5s;
+}
+
+
+.modal-left{
+    width:48%;
+    height:100%;
+    float:left;
+}
+
+.modal-right{
+    margin-left:2%;
+    width:48%;
+    height:100%;
+    float:left;
 }

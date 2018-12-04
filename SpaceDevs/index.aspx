@@ -9,7 +9,7 @@
             <div class="info-izq">
                 <div class="info-title"> 
                     <div class="title-container">
-                        <h1 id="title">Bienvenidos a SpaceDevs</h1>
+                        <span id="title" style="font-size:37px;">Simple plataforma pero util </span>
                     </div>
                     <div class="status-container">
                         <span class="status-default" id="state"></span>
@@ -17,10 +17,9 @@
                     </div>
                 <span class="date" id="date">21 de octubre del 2018.</span>
                 <p id="descripcion">
-                    Esta pagina web esta hecha para visualizar y recordar aquellas
-                    personas lo importante de las misiones y belleza de nuestro universo
-                    aqui podran encontrar la informacion necesaria para aprender sobre
-                    estas misiones de la NASA y sus descubrimientos.
+                    lorem impasijdaslkjdaslkjdaslkjdlaskjdlask
+                    aslkjdalskjdlaskjdlaskjdlaskjd
+                    alskdjalskjdlaskjdlkasjdlkasjd
                 </p>
             </div>
     <%--            <div class="info-der">
@@ -30,8 +29,8 @@
         <div class="info-dos">
             <img src="img/info-back.jpg" alt="Alternate Text" />
             <div class="thumbnail">
-                <h3 class="thumb-title">¿Intrigado?</h3>
-                <span class="thumb-text">Accede a la información</span>
+                <h3 class="thumb-title">¿Te interesa?</h3>
+                <span class="thumb-text">Accede a la informacion</span>
                 <a class="thumb-link" href="#">Click aqui</a>
             </div>
         </div>
@@ -55,21 +54,8 @@
         //2 - Red - se cancelo - status-orange
         //3 - Success - Exito - status-success
         //4 - Fail - fallo - status-fail
-        //------------------------------------ 
-        
-        
-        //FUNTION ALERTA
-        function Alerta(){
-            alert("Error, no se encontro");
-            var urxx ="https://launchlibrary.net";
-            
-            var sxx ={                
-                start: i;
-            }
-        }
-        //FUNTION ALERTA
-        
-        
+        //------------------------------------
+
         function fn_get_lanzamientos() {
             var uri = "https://launchlibrary.net/1.4/launch";
             var jsonArray = [];
@@ -102,7 +88,7 @@
             $.getJSON(uri).done(function (d) {
                 if (d.missions.length > 0) {
                     descripcion.append($("<br />"));
-                    descripcion.append("DESCRIPCIÓN MISIÓN: <br />" + d.missions[0].description);
+                    descripcion.append("DESCRIPCION MISION: <br />" + d.missions[0].description);
                 }
             });
         }
