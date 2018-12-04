@@ -9,7 +9,7 @@
             <div class="info-izq">
                 <div class="info-title"> 
                     <div class="title-container">
-                        <h1 id="title">Simple plataforma pero util</h1>
+                        <h1 id="title">Bienvenidos a SpaceDevs</h1>
                     </div>
                     <div class="status-container">
                         <span class="status-default" id="state"></span>
@@ -17,9 +17,10 @@
                     </div>
                 <span class="date" id="date">21 de octubre del 2018.</span>
                 <p id="descripcion">
-                    lorem impasijdaslkjdaslkjdaslkjdlaskjdlask
-                    aslkjdalskjdlaskjdlaskjdlaskjd
-                    alskdjalskjdlaskjdlkasjdlkasjd
+                    Esta pagina web esta hecha para visualizar y recordar aquellas
+                    personas lo importante de las misiones y belleza de nuestro universo
+                    aqui podran encontrar la informacion necesaria para aprender sobre
+                    estas misiones de la NASA y sus descubrimientos.
                 </p>
             </div>
     <%--            <div class="info-der">
@@ -29,8 +30,8 @@
         <div class="info-dos">
             <img src="img/info-back.jpg" alt="Alternate Text" />
             <div class="thumbnail">
-                <h3 class="thumb-title">¿Te interesa?</h3>
-                <span class="thumb-text">Accede a la informacion</span>
+                <h3 class="thumb-title">¿Intrigado?</h3>
+                <span class="thumb-text">Accede a la información</span>
                 <a class="thumb-link" href="#">Click aqui</a>
             </div>
         </div>
@@ -88,7 +89,7 @@
             $.getJSON(uri).done(function (d) {
                 if (d.missions.length > 0) {
                     descripcion.append($("<br />"));
-                    descripcion.append("DESCRIPCION MISION: <br />" + d.missions[0].description);
+                    descripcion.append("DESCRIPCIÓN MISIÓN: <br />" + d.missions[0].description);
                 }
             });
         }
