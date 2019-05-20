@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Sysitem;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,7 +18,7 @@ namespace SpaceDevs
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //a que buen peish LOAD :D
+            // cambiodesde mac
         }
 
         protected void Button1_Click(object sender, EventArgs e)
