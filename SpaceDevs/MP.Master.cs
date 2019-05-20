@@ -18,7 +18,7 @@ namespace SpaceDevs
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //a que buen peish LOAD :D
         }
 
         protected void Button1_Click(object sender, EventArgs e)
